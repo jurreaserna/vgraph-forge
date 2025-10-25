@@ -1,8 +1,8 @@
-"""Python facade for the Rust-backed visibility_graphs extension."""
+"""Python facade for the Rust-backed vgraph_forge extension."""
 
 from typing import Optional
 
-from .visibility_graphs import (
+from .vgraph_forge import (
     HorizontalVisibilityGraph,
     VisibilityGraph,
     horizontal_window_motif_scores,

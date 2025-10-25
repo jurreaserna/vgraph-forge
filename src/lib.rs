@@ -140,7 +140,7 @@ fn horizontal_window_motif_scores_py(
 }
 
 #[pymodule]
-fn visibility_graphs(_py: Python<'_>, m: &PyModule) -> PyResult<()> {
+fn vgraph_forge(_py: Python<'_>, m: &PyModule) -> PyResult<()> {
 	m.add_class::<VisibilityGraph>()?;
 	m.add_class::<HorizontalVisibilityGraph>()?;
 	m.add_function(wrap_pyfunction!(build_visibility_graph_py, m)?)?;
