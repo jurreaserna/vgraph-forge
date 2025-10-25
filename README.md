@@ -24,7 +24,7 @@ During development (or before publishing), build a local wheel with `maturin bui
 Below is a compact Python example that constructs both NVG and HVG representations from a simple time series:
 
 ```python
-from visibility_graphs import (
+from vgraph_forge import (
 	build_visibility_graph,
 	build_horizontal_visibility_graph,
 )

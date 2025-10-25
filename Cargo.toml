@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [lib]
-name = "visibility_graphs"
+name = "vgraph_forge"
 crate-type = ["cdylib"]
 
 [dependencies]

@@ -1,8 +1,8 @@
-"""Minimal Python demo for the visibility_graphs bindings."""
+"""Minimal Python demo for the vgraph_forge bindings."""
 
 from __future__ import annotations
 
-from visibility_graphs import build_visibility_graph, indices_are_visible
+from vgraph_forge import build_visibility_graph, indices_are_visible
 
 
 def main() -> None:
